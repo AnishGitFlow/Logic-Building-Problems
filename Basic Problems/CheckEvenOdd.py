@@ -1,4 +1,5 @@
 def CheckEvenOdd(n):
+    
     rem = n % 2
     if rem == 0:
         return True
