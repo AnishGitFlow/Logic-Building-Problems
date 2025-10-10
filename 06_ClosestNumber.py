@@ -6,3 +6,24 @@
 
 # Input : n = 13, m = 4
 # Output : 12
+
+# Input: n = -15, m = 6
+# Output: -18
+# Explanation: Both -12 and -18 are closest to -15, but -18 has the maximum absolute value.
+
+def closestnum():
+    n = int(input("Enter a number: "))
+    m = int(input("Enter a divisor: "))
+
+    # Find the closest number to n that is divisible by m
+    closest = n - (n % m)
+    if (n % m) > (m / 2):
+        closest += m
+
+    # If there are two closest numbers, choose the one with maximum absolute value
+    if abs(n - closest) == abs(n - (closest - m)):
+        closest = closest if abs(closest) > abs(closest - m) else closest - m
+
+    print(closest)
+
+closestnum()
