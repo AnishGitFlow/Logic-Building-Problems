@@ -1,6 +1,6 @@
 # 🧮 Mathematical Algorithms Collection
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/yourusername/your-repo-name)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/yourusername/Mathematical-Algorithms-Collection)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 
@@ -136,10 +136,10 @@ python --version  # Python 3.7+
 
 ```bash
 # Clone the repository
-git clone https://github.com/anishgitflow/Logic-Building-Problems
+git clone https://github.com/anishgitflow/Mathematical-Algorithms-Collection
 
 # Navigate to the project directory
-cd Logic-Building-Problems
+cd Mathematical-Algorithms-Collection
 
 # Run a specific problem (example)
 python basic/even_or_odd.py
